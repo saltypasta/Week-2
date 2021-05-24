@@ -47,9 +47,9 @@
 - lets not do that
 - Using powershell, ran all steps up to:
   $ wget http://activehistory.ca/papers/
-   -This looks like its doing stuff but I cant find any files in my directory... Unless im not looking in the right spot?
-   -Once again discord saves the day! You need to add '.exe' to the end of wget in "wget -r -np -w 2 --limit-rate=20k http://activehistory.ca/papers/"
-   -Correct command looks like:
+   - This looks like its doing stuff but I cant find any files in my directory... Unless im not looking in the right spot?
+   - Once again discord saves the day! You need to add '.exe' to the end of wget in "wget -r -np -w 2 --limit-rate=20k http://activehistory.ca/papers/"
+   - Correct command looks like:
    $ wget.exe -r -np -w 2 --limit-rate=20k http://activehistory.ca/papers/     
    - Okay soooo its still downloading... Im hoping I did not download the internet like I just said I wasnt going to
    - Stilllll going. I asked in the discord if anyone knows a way to find out how many files you are going to download before starting the command. the files are very small but my powershell is running forever and I am trying to progress with the tutorial.  
